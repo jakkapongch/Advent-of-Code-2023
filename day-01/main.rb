@@ -1,4 +1,4 @@
-datas = File.read('data/challeng_1.txt').split("\n")
+datas = File.read('./data.txt').split("\n")
 
 result = datas.map do |data|
   number_only = data.gsub(/\D/, '')
